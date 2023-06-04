@@ -1,4 +1,4 @@
-.container {
+.unique-container {
     @media screen and (min-width: 1200px) {
         width: 1136px;
         height: 476px;
@@ -95,7 +95,7 @@ body {
 
 
 
-.overlay-container {
+.unique-overlay-container {
     @media screen and (min-width: 1200px) {
         display: flex;
         flex-direction: column;
@@ -126,7 +126,7 @@ body {
 
 }
 
-.buttons {
+.unique-buttons {
     display: flex;
     gap: 6px;
     margin-bottom: 14px;
@@ -136,7 +136,7 @@ body {
 
 .unique-components {}
 
-.components-title {
+.unique-components-title {
     @media screen and (min-width: 1200px) {
         margin-top: 128px;
         margin-right: 362px;
@@ -188,7 +188,7 @@ body {
     color: #FD9222;
 }
 
-.components-description {
+.unique-components-description {
     @media screen and (min-width: 1200px) {
         width: 486px;
         height: 72px;
@@ -237,7 +237,7 @@ body {
 
 }
 
-.components-list {
+.unique-components-list {
     @media screen (min-width: 1200px) {
         display: flex;
         align-items: center;
@@ -284,7 +284,7 @@ body {
 
 
 
-.components-list-item-chocolate {
+.unique-components-list-item-chocolate {
 
     @media screen and (min-width: 1200px) {
         width: 270px;
@@ -315,7 +315,7 @@ body {
     }
 }
 
-.components-list-item-milk {
+.unique-components-list-item-milk {
     @media screen and (min-width: 1200px) {
         box-sizing: border-box;
 
@@ -349,7 +349,7 @@ body {
     }
 }
 
-.components-list-item-nuts {
+.unique-components-list-item-nuts {
     @media screen and (min-width: 1200px) {
         width: 270px;
         height: 270px;
@@ -381,7 +381,7 @@ body {
     }
 }
 
-.components-list-item-semi-sweet {
+.unique-components-list-item-semi-sweet {
 
     @media screen and (min-width: 1200px) {
         box-sizing: border-box;
@@ -419,7 +419,7 @@ body {
     }
 }
 
-.components-wrapper {
+.unique-components-wrapper {
     position: relative;
     z-index: 1;
 
@@ -427,17 +427,17 @@ body {
 
 
 
-.components-list-item-img {
+.unique-components-list-item-img {
     background-color: transparent;
 }
 
-.components-additional-information {
+.unique-components-additional-information {
     position: relative;
     overflow: hidden;
 
 }
 
-.components-wrapper-overlay {
+.unique-components-wrapper-overlay {
     @media screen and (min-width: 1200px) {
         display: none;
         background-color: white;
@@ -463,25 +463,25 @@ body {
 
 }
 
-.components-additional-information:hover .components-wrapper-overlay,
-.components-additional-information:focus .components-wrapper-overlay {
+.unique-components-additional-information:hover .unique-components-wrapper-overlay,
+.unique-components-additional-information:focus .unique-components-wrapper-overlay {
     display: block;
 }
 
 
 
 
-.components-additional-information:hover .components-wrapper-overlay {
+.unique-components-additional-information:hover .unique-components-wrapper-overlay {
     transform: translateY(-100%);
 }
 
-.components-additional-information:focus .components-wrapper-overlay {
+.unique-components-additional-information:focus .unique-components-wrapper-overlay {
     transform: translateY(-100%);
 }
 
 
 
-.overlay-title {
+.unique-overlay-title {
     width: 163px;
     height: 22px;
 
@@ -526,7 +526,7 @@ body {
 
 }
 
-.component-button-chocolate {
+.unique-component-button-chocolate {
     text-decoration: none;
 
     display: flex;
@@ -553,7 +553,7 @@ body {
 
 }
 
-.component-button-milk {
+.unique-component-button-milk {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -579,7 +579,7 @@ body {
     margin-left: 20;
 }
 
-.component-button-nuts {
+.unique-component-button-nuts {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -602,7 +602,7 @@ body {
     color: #FFFFFF;
 }
 
-.component-button-semi-sweet {
+.unique-component-button-semi-sweet {
 
     flex-direction: row;
     justify-content: center;
@@ -628,7 +628,7 @@ body {
     color: #FFFFFF;
 }
 
-.benefit-button {
+.unique-benefit-button {
     text-decoration: none;
     box-sizing: border-box;
 
@@ -665,7 +665,7 @@ body {
     color: #111111;
 }
 
-.component-description {
+.unique-component-description {
 
     @media screen and (min-width: 1200px) {
         width: 230px;
@@ -697,7 +697,7 @@ body {
     }
 }
 
-.components-list-title-chocolate {
+.unique-components-list-title-chocolate {
     position: absolute;
 
     height: 18px;
@@ -721,7 +721,7 @@ body {
     color: #FFFFFF;
 }
 
-.components-list-title-milk {
+.unique-components-list-title-milk {
     position: absolute;
 
     height: 18px;
@@ -744,7 +744,7 @@ body {
     color: #111111;
 }
 
-.components-list-title-nuts {
+.unique-components-list-title-nuts {
     position: absolute;
 
     height: 18px;
@@ -767,7 +767,7 @@ body {
     color: #FFFFFF;
 }
 
-.components-list-title-semi-sweet {
+.unique-components-list-title-semi-sweet {
     position: absolute;
 
     width: 191px;
